@@ -1,0 +1,2 @@
+# aitraining
+AI Training Repository
