@@ -1,6 +1,6 @@
 # AI Training
 
-## Instructions
+## Deploying the Flask WebApp to GCP Cloud Run:
 
 ```
 gcloud auth login
@@ -13,3 +13,13 @@ gcloud run deploy <yourname>-myfirstai \
   --image gcr.io/<projectid>/<yourname>-myfirstai \
   --platform managed --region us-east1 --allow-unauthenticated
 ```
+
+Note that you might need to configure the API key as an environment variable.
+
+## Local testing
+
+```
+python3 app.py
+```
+
+
