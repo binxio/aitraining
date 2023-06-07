@@ -26,7 +26,6 @@ def ask_model(context):
     )
     return response.choices[0].message["content"]
 
-# Lander HTML code is from WhatThePug.com. You'll want to replace it with something simpler I guess :)
 @app.route('/', methods=['GET', 'POST'])
 def landing_page():
     lander = """<!DOCTYPE html>
